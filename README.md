@@ -18,12 +18,12 @@ This project demonstrates how **machine learning** can be applied to **predictiv
 ```plaintext
 AI_Predictive_Maintenance/
 │── data/
-│   ├── sample_data.csv               # Sample dataset for model training
+│   ├── predictive_maintenance.csv      # Predictive Maintenance Dataset from Kaggle
 │── notebooks/
-│   ├── predictive_maintenance.ipynb   # Jupyter Notebook with step-by-step execution
-│── preprocessing.py                   # Data loading and preprocessing script
-│── requirements.txt                    # Required Python libraries
-│── README.md                           # Project documentation
+│   ├── predictive_maintenance.ipynb    # Jupyter Notebook with step-by-step execution
+│── preprocessing.py                     # Data loading and preprocessing script
+│── requirements.txt                      # Required Python libraries
+│── README.md                             # Project documentation
 ```
 
 ---
@@ -56,18 +56,22 @@ streamlit run app.py
 
 ---
 
-## 🔍 Data Description
+## 🔍 Dataset Information
 
-The dataset (`sample_data.csv`) contains sensor readings and maintenance history for service center equipment.
+This project uses the **Predictive Maintenance Classification Dataset** from Kaggle:  
+🔗 **[Download Here](https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classification)**
 
-| Column          | Description                              |
-|----------------|------------------------------------------|
-| id             | Unique identifier for the observation   |
-| timestamp      | Date and time of sensor reading        |
-| sensor_1       | Sensor reading #1                      |
-| sensor_2       | Sensor reading #2                      |
-| sensor_3       | Sensor reading #3                      |
-| maintenance_needed | 1 = Maintenance required, 0 = No maintenance |
+### **Features in the Dataset**
+| Column           | Description                                      |
+|-----------------|--------------------------------------------------|
+| Type           | Type of machine                                  |
+| Air temperature | Sensor reading for air temperature (°C)         |
+| Process temperature | Temperature at the machine's core (°C) |
+| Rotational speed | Speed of the machine component (rpm) |
+| Torque         | Torque applied to the machine (Nm) |
+| Tool wear     | Wear level of the tool component |
+| Failure Type   | Type of failure occurring in the machine |
+| Maintenance Needed | 1 = Maintenance Required, 0 = No Maintenance Needed |
 
 ---
 
@@ -108,6 +112,7 @@ This project is open-source and available under the **MIT License**.
 ## 📬 Contact
 
 **Author:** Prabhani Hansika Gunasekera  
+📧 Email: [prabs.barney@gmail.com](mailto:prabs.barney@gmail.com)  
 🔗 LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/prabhanigunasekera/)  
 💻 GitHub: [GitHub Profile](https://github.com/prabhanig)  
 
