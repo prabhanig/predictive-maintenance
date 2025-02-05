@@ -111,8 +111,7 @@ This project is open-source and available under the **MIT License**.
 
 ## 📬 Contact
 
-**Author:** Prabhani Hansika Gunasekera  
-📧 Email: [prabs.barney@gmail.com](mailto:prabs.barney@gmail.com)  
+**Author:** Prabhani Hansika Gunasekera   
 🔗 LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/prabhanigunasekera/)  
 💻 GitHub: [GitHub Profile](https://github.com/prabhanig)  
 
